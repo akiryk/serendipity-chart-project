@@ -1,0 +1,18 @@
+@import 'modules/normalize';
+@import 'modules/variables';
+@import 'modules/mixins';
+@import 'modules/base';
+@import 'modules/layout';
+
+circle {
+	opacity: 0.6;
+}
+
+.corepub {
+	opacity: 0.9;
+	fill: red;
+}
+
+svg {
+	background: white;
+}
