@@ -9212,6 +9212,8 @@ return jQuery;
 	 */
 	var Model = {
 
+		dataSrc: 'data/users_Apr2015.csv',
+
 		// JSON data for months and years
 		data: {
 			"March2014": [
@@ -9434,7 +9436,9 @@ return jQuery;
 					"TSR": "677966"
 				}
 			]
-		}
+		},
+
+		
 
 	}
 
@@ -9444,13 +9448,13 @@ return jQuery;
 	var Controller = (function(){
 
 		// Private methods and properties
-		var _dataEls = ['March2014', 'April2014', 'May2014', 'June2014', 'July2014'],
+		var _dataEls = ['Sep2014', 'Oct2014', 'Nov2014', 'Dec2014','Jan2015','Feb2015','Mar2015','Apr2015', 'May2015', 'Jun2015', 'Jul2015', 'Aug2015'],
 				_counter = 0,
-				_rate = 1500, // Rate for window.setTimeout()
+				_rate = 2500, // Rate for window.setTimeout()
 				_currentDate = '',
 				_svg,
 				_g,
-				_width = 800,
+				_width = 1500,
 				_height = 600;
 
 		/**
@@ -9480,8 +9484,8 @@ return jQuery;
 				} 
 				
 				_setCurrentDate();
-
-				DataView.update();
+				this.changeDataSource();
+				this.loadData();
 
 			}
 
@@ -9577,8 +9581,6 @@ return jQuery;
 
 				DataView.init();
 
-				_startTicker();
-
 				// Add close event to DataView tooltip
 				var tt = d3.select('.tooltip');
 				tt.on('click', function(){
@@ -9587,17 +9589,51 @@ return jQuery;
 						.each('end', function(){
 							tt.classed('hidden', true);
 						})
-				})
+				});
+
+				this.loadData();
+
+				_startTicker();
 				
 			},
+
+			changeDataSource: function(){
+				Model.dataSrc = 'data/users_' + _dataEls[_counter] + '.csv';
+			},
+
+			/**
+			 * Load data from Model by month and year
+			 */
+			loadData: function(){
+
+		    var self = this;
+		    d3.csv( Model.dataSrc , function(error, data) {
+
+		      if (error) {
+		        console.log(error);
+		      } else {
+		        self.data = data;
+		        DataView.update();
+		      } 
+
+		    });
+
+		  },
 
 			/**
 			 * Creates a linear scale based on page views
 			 * @returns {d3.scale.linear} - with domain and range
 			 */
-			getPageViewScale: function(){
+			getYScale: function(){
+				var max = d3.max(this.data, function(d) {
+			      return Number(d.pageviews);
+			    });
+
+			    var min = d3.min(this.data, function(d) {
+			      return Number(d.pageviews);
+			    });
 				return d3.scale.linear()
-					.domain([0,4563546])
+					.domain([min, max])
 					.range([_height-100,100]);
 			},
 
@@ -9605,10 +9641,17 @@ return jQuery;
 			 * Creates a linear scale based on TSR
 			 * @returns {d3.scale.linear} - with domain and range
 			 */
-			getUserScale: function(){
+			getRScale: function(){
+				var max = d3.max(this.data, function(d) {
+			      return Number(d.users);
+			    });
+
+			    var min = d3.min(this.data, function(d) {
+			      return Number(d.users);
+			    });
 				return d3.scale.linear()
-					.domain([300000,2146505]) 
-					.range([10,70]);
+					.domain([min, max])
+					.range([2,40]);
 			},
 
 			/**
@@ -9625,9 +9668,8 @@ return jQuery;
 			 * Get data from the model
 			 * @returns json data
 			 */
-			getDataByMonth: function(){
-				var prop = _dataEls[_counter];
-				return Model.data[prop];
+			getData: function(){
+				return this.data;
 			},
 
 			/**
@@ -9678,14 +9720,12 @@ return jQuery;
 		    .style("opacity", 0);
 
 			this.initLabel();
-			this.update(); 
-
+	
 		},
 
 		update: function(){
 			
-			this.data = Controller.getDataByMonth();
-
+			this.data = Controller.getData();
 			if (this.currentStationName){
 				var lookup = {};
 				for (var i = 0, len = this.data.length; i < len; i++) {
@@ -9714,9 +9754,8 @@ return jQuery;
 
 			var circles = Controller.getDataVisGroup().selectAll('circle').data(data);
 
-			var pageViewScale = Controller.getPageViewScale(),
-					tsrScale = Controller.getTsrScale(),
-					userScale = Controller.getUserScale();
+			var yScale = Controller.getYScale(),
+					rScale = Controller.getRScale();
 
 			// Only runs when there is a new bit of data without a corresponding DOM element
 			circles.enter().append('circle')
@@ -9731,14 +9770,14 @@ return jQuery;
 			circles
 				.transition()
 					.duration(1500)
-				.attr('cx', function(d){
-					return tsrScale(d.TSR);
+				.attr('cx', function(d, i){
+					return i*5 + 5; //return tsrScale(d.TSR);
 				})
 				.attr('r', function(d){
-					return userScale(d.users);
+					return rScale(d.users);
 				})
 				.attr('cy', function(d){
-					return pageViewScale(d.pageviews);
+					return yScale(d.pageviews);
 				});
 
 			// Only runs when there is a DOM elem. without corresponding data
@@ -9791,9 +9830,8 @@ return jQuery;
 			var date = Controller.getCurrentDate();
 
 			this.label
-				.style('transform', 'translate(100px,20px)')
-				.style('text-align', 'left')
-				.text('Page views, ' + date);
+				.classed('view-title', true)
+				.text(date);
 		}
 
 	}
