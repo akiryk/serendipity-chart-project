@@ -9218,185 +9218,220 @@ return jQuery;
 				{
 					"name": "WBUR",
 					"users": 2146505,
-					"pageviews": 4563546
+					"pageviews": 4563546,
+					"TSR": "25677966"
 				},
 				{
 					"name": "KQED",
-					"users": 2146505,
-					"pageviews": 3204121
+					"users": 1283949,
+					"pageviews": 3204121,
+					"TSR": "15677966"
 				},
 				{
 					"name": "Minnesota Public Radio",
-					"users": 2146505,
-					"pageviews": 4327257
+					"users": 1237552,
+					"pageviews": 4327257,
+					"TSR": "17677966"
 				},
 				{
 					"name": "Southern California Public Radio",
-					"users": 2146505,
-					"pageviews": 1961906
+					"users": 994176,
+					"pageviews": 1961906,
+					"TSR": "12677966"
 				},
 				{
 					"name": "WHYY",
-					"users": 2146505,
-					"pageviews": 1165399
+					"users": 533949,
+					"pageviews": 1165399,
+					"TSR": "9677966"
 				},
 				{
 					"name": "KPBS",
-					"users": 2146505,
-					"pageviews": 973419
+					"users": 393446,
+					"pageviews": 973419,
+					"TSR": "5677966"
 				},
 				{
 					"name": "Oregon Public Broadcasting",
-					"users": 2146505,
+					"users": 345009,
 					"pageviews": 1124545,
+					"TSR": "677966"
 				}
 			],
 			"April2014": [
 				{
 					"name": "WBUR",
-					"users": 2146505,
-					"pageviews": 4090053
+					"users": 1882959,
+					"pageviews": 4090053,
+					"TSR": "25677966"
 				},
 				{
 					"name": "KQED",
-					"users": 2146505,
-					"pageviews": 3352694
+					"users": 1423761,
+					"pageviews": 3352694,
+					"TSR": "15677966"
 				},
 				{
 					"name": "Minnesota Public Radio",
-					"users": 2146505,
-					"pageviews": 4227087
+					"users": 1252794,
+					"pageviews": 4227087,
+					"TSR": "17677966"
 				},
 				{
 					"name": "Southern California Public Radio",
-					"users": 2146505,
-					"pageviews": 2194394
+					"users": 1224712,
+					"pageviews": 2194394,
+					"TSR": "12677966"
 				},
 				{
 					"name": "WHYY",
-					"users": 2146505,
-					"pageviews": 942373
+					"users": 432475,
+					"pageviews": 942373,
+					"TSR": "9677966"
 				},
 				{
 					"name": "KPBS",
-					"users": 2146505,
-					"pageviews": 960722
+					"users": 395232,
+					"pageviews": 960722,
+					"TSR": "5677966"
 				},
 				{
 					"name": "Oregon Public Broadcasting",
-					"users": 2146505,
-					"pageviews": 1047103
+					"users": 351898,
+					"pageviews": 1047103,
+					"TSR": "677966"
 				}
 			],
 			"May2014": [
 				{
 					"name": "WBUR",
-					"users": 2146505,
-					"pageviews": 3975689
+					"users": 1832638,
+					"pageviews": 3975689,
+					"TSR": "25677966"
 				},
 				{
 					"name": "KQED",
-					"users": 2146505,
-					"pageviews": 3138825
+					"users": 1156856,
+					"pageviews": 3138825,
+					"TSR": "15677966"
 				},
 				{
 					"name": "Minnesota Public Radio",
-					"users": 2146505,
-					"pageviews": 3739994
+					"users": 1142115,
+					"pageviews": 3739994,
+					"TSR": "17677966"
 				},
 				{
 					"name": "Southern California Public Radio",
-					"users": 2146505,
-					"pageviews": 2835279
+					"users": 1409253,
+					"pageviews": 2835279,
+					"TSR": "12677966"
 				},
 				{
 					"name": "WHYY",
-					"users": 2146505,
-					"pageviews": 946220
+					"users": 443395,
+					"pageviews": 946220,
+					"TSR": "9677966"
 				},
 				{
 					"name": "KPBS",
-					"users": 2146505,
-					"pageviews": 1644438
+					"users": 790582,
+					"pageviews": 1644438,
+					"TSR": "5677966"
 				},
 				{
 					"name": "Oregon Public Broadcasting",
-					"users": 2146505,
-					"pageviews": 1044191
+					"users": 356230,
+					"pageviews": 1044191,
+					"TSR": "677966"
 				}
 			],
 			"June2014": [
 				{
 					"name": "WBUR",
-					"users": 2146505,
-					"pageviews": 3646665
+					"users": 1663271,
+					"pageviews": 3646665,
+					"TSR": "25677966"
 				},
 				{
 					"name": "KQED",
-					"users": 2146505,
-					"pageviews": 3214094
+					"users": 1352241,
+					"pageviews": 3214094,
+					"TSR": "15677966"
 				},
 				{
 					"name": "Minnesota Public Radio",
-					"users": 2146505,
-					"pageviews": 3798190
+					"users": 1206300,
+					"pageviews": 3798190,
+					"TSR": "17677966"
 				},
 				{
 					"name": "Southern California Public Radio",
-					"users": 2146505,
-					"pageviews": 1492468
+					"users": 724144,
+					"pageviews": 1492468,
+					"TSR": "12677966"
 				},
 				{
 					"name": "WHYY",
-					"users": 2146505,
-					"pageviews": 1122770
+					"users": 556402,
+					"pageviews": 1122770,
+					"TSR": "9677966"
 				},
 				{
 					"name": "KPBS",
-					"users": 2146505,
-					"pageviews": 919784
+					"users": 447875,
+					"pageviews": 919784,
+					"TSR": "5677966"
 				},
 				{
 					"name": "Oregon Public Broadcasting",
-					"users": 2146505,
-					"pageviews": 1020420
+					"users": 358288,
+					"pageviews": 1020420,
+					"TSR": "677966"
 				}
 			],
 			"July2014": [
 				{
 					"name": "WBUR",
-					"users": 2146505,
-					"pageviews": 4154801
+					"users": 1878494,
+					"pageviews": 4154801,
+					"TSR": "25677966"
 				},
 				{
 					"name": "KQED",
-					"users": 2146505,
-					"pageviews": 3460064
+					"users": 1504638,
+					"pageviews": 3460064,
+					"TSR": "15677966"
 				},
 				{
 					"name": "Minnesota Public Radio",
-					"users": 2146505,
-					"pageviews": 4129679
+					"users": 1372347,
+					"pageviews": 4129679,
+					"TSR": "17677966"
 				},
 				{
 					"name": "Southern California Public Radio",
-					"users": 2146505,
-					"pageviews": 1744820
+					"users": 848833,
+					"pageviews": 1744820,
+					"TSR": "12677966"
 				},
 				{
 					"name": "WHYY",
-					"users": 2146505,
-					"pageviews": 1103905
+					"users": 504084,
+					"pageviews": 1103905,
+					"TSR": "9677966"
 				},
 				{
 					"name": "KPBS",
-					"users": 2146505,
-					"pageviews": 843098
+					"users": 379003,
+					"pageviews": 843098,
+					"TSR": "5677966"
 				},
 				{
 					"name": "Oregon Public Broadcasting",
-					"users": 2146505,
-					"pageviews": 899330
+					"users": 300172,
+					"pageviews": 899330,
+					"TSR": "677966"
 				}
 			]
 		}
@@ -9446,8 +9481,8 @@ return jQuery;
 				
 				_setCurrentDate();
 
-				DataView.updateVis();
-				DataView.updateLabel();
+				DataView.update();
+
 			}
 
 		};
@@ -9467,12 +9502,12 @@ return jQuery;
 	      .range([_height, 0]);
 
 	    var xAxis = d3.svg.axis()
-	      .ticks(0)
+	      .ticks(10)
 	      .scale(xScale)
 	      .orient("bottom");
 
 	    var yAxis = d3.svg.axis()
-	      .ticks(0)
+	      .ticks(10)
 	      .scale(yScale)
 	      .orient("left");
 
@@ -9483,50 +9518,38 @@ return jQuery;
 	    axesG.append("g")
 	      .attr("class", "axis x-axis")
 	      .attr("transform", function () {
-	          return "translate(0," + _height + ")";
+	          return "translate(0,560)";
 	      })
 	      .style({ fill: 'none', stroke: '#ccc'})
+	      .text("income per capita, inflation-adjusted (dollars)")
 	      .call(xAxis);
 
 	    axesG.append("g")
 	      .attr("class", "axis y-axis")
 	      .attr("transform", function () {
-	          return "translate(0,0)";
+	          return "translate(32,0)";
 	      })
 	      .style( { fill: 'none', stroke: '#ccc'})
 	      .call(yAxis);
 
-	    /*
-	     * Draw the x- and y-axes
+	    /**
+	     * Axis labels
 	     */
+	    _svg.append("text")
+		    .attr("class", "x label")
+		    .attr("text-anchor", "end")
+		    .attr("x", _width)
+		    .attr("y", _height - 6)
+		    .text("Total Station Revenue (TSR)");
 
-	    // axesG.append("text")
-	    //   .attr("class", "x-label")
-	    //   .attr("text-anchor", "end")
-	    //   .attr("x", _chartWidth)
-	    //   .attr("y", _chartHeight/2 + 4)
-	    //   .text("High Skill");
+		   _svg.append("text")
+		    .attr("class", "y label")
+		    .attr("text-anchor", "end")
+		    .attr("y", 6)
+		    .attr("dy", ".75em")
+		    .attr("transform", "rotate(-90)")
+		    .text("Users For Month");
 
-	    // axesG.append("text")
-	    //   .attr("class", "x-label")
-	    //   .attr("text-anchor", "start")
-	    //   .attr("x", 0)
-	    //   .attr("y", _chartHeight/2 + 4)
-	    //   .text("Low Skill");
-
-	    //  axesG.append("text")
-	    //   .attr("class", "y-label")
-	    //   .attr("text-anchor", "middle")
-	    //   .attr("x", _chartWidth/2)
-	    //   .attr("y", 50)
-	    //   .text("High Frequency");
-
-	    // axesG.append("text")
-	    //   .attr("class", "y-label")
-	    //   .attr("text-anchor", "middle")
-	    //   .attr("x", _chartWidth/2)
-	    //   .attr("y", _chartHeight - 45)
-	    //   .text("Low Frequency");
 	  };
 
 		var publicProps =  {
@@ -9552,21 +9575,50 @@ return jQuery;
 
 				_setCurrentDate();
 
-				DataView.updateVis(); 
-				DataView.initLabel();
+				DataView.init();
 
 				_startTicker();
 
+				// Add close event to DataView tooltip
+				var tt = d3.select('.tooltip');
+				tt.on('click', function(){
+					tt.transition()
+						.style('opacity', 0)
+						.each('end', function(){
+							tt.classed('hidden', true);
+						})
+				})
+				
 			},
 
 			/**
-			 * Creates a linear scale
+			 * Creates a linear scale based on page views
 			 * @returns {d3.scale.linear} - with domain and range
 			 */
 			getPageViewScale: function(){
 				return d3.scale.linear()
 					.domain([0,4563546])
-					.range([0,50]);
+					.range([_height-100,100]);
+			},
+
+			/**
+			 * Creates a linear scale based on TSR
+			 * @returns {d3.scale.linear} - with domain and range
+			 */
+			getUserScale: function(){
+				return d3.scale.linear()
+					.domain([300000,2146505]) 
+					.range([10,70]);
+			},
+
+			/**
+			 * Creates a linear scale based on TSR
+			 * @returns {d3.scale.linear} - with domain and range
+			 */
+			getTsrScale: function(){
+				return d3.scale.linear()
+					.domain([100000,25000000])
+					.range([0, _width-200]);
 			},
 
 			/**
@@ -9614,25 +9666,61 @@ return jQuery;
 	 */
 	var DataView = {
 
+		currentStationName: '', // reference the station user is mousing over.
+
+		data: null, //  reference to data by month from Controller
+
+		// Tool Tip
+		init: function(){
+
+			this.tooltip = d3.select("body").append("div")   
+		    .attr("class", "tooltip")               
+		    .style("opacity", 0);
+
+			this.initLabel();
+			this.update(); 
+
+		},
+
+		update: function(){
+			
+			this.data = Controller.getDataByMonth();
+
+			if (this.currentStationName){
+				var lookup = {};
+				for (var i = 0, len = this.data.length; i < len; i++) {
+				    lookup[this.data[i].name] = this.data[i];
+
+				}
+				this.updateTooltip(lookup[this.currentStationName]);
+			}
+
+			this.updateVis();
+			this.updateLabel();
+			
+		},
+
 		/**
 		 * Update the visualization
 		 * @param {json} data - json data
 		 */
 		updateVis: function(){
 
-			var data = Controller.getDataByMonth();
+			var data = this.data;
+
+			var div = this.toolTip;
+
+			var self = this;
 
 			var circles = Controller.getDataVisGroup().selectAll('circle').data(data);
 
-			var linearScale = Controller.getPageViewScale();
+			var pageViewScale = Controller.getPageViewScale(),
+					tsrScale = Controller.getTsrScale(),
+					userScale = Controller.getUserScale();
 
 			// Only runs when there is a new bit of data without a corresponding DOM element
 			circles.enter().append('circle')
 				.attr('r', 0)
-				.attr('cx', function(d,i){
-					return i*50;
-				})
-				.attr('cy', 100)
 				.attr('class', function(d){
 					if (d.name=="Oregon Public Broadcasting"){
 						return 'corepub';
@@ -9643,8 +9731,14 @@ return jQuery;
 			circles
 				.transition()
 					.duration(1500)
+				.attr('cx', function(d){
+					return tsrScale(d.TSR);
+				})
 				.attr('r', function(d){
-					return linearScale(d.pageviews);
+					return userScale(d.users);
+				})
+				.attr('cy', function(d){
+					return pageViewScale(d.pageviews);
 				});
 
 			// Only runs when there is a DOM elem. without corresponding data
@@ -9653,6 +9747,20 @@ return jQuery;
 					.duration(750)
 				.style('opacity', 0.0)
 				.remove();
+
+			circles
+			  .on("mouseover", function(d){
+		      d3.select(this).classed('active', true);
+		      self.tooltip.transition()        
+		        .duration(200)      
+		        .style("opacity", .9)
+		        .style("left", (d3.event.pageX) + "px")     
+		        .style("top", (d3.event.pageY - 28) + "px");
+		      self.tooltip.classed('hidden', false); 
+		      self.currentStationName = d.name;
+		      self.updateTooltip(d);
+		        
+			  });
 		},
 
 		label: null,
@@ -9663,12 +9771,19 @@ return jQuery;
 		initLabel: function(){
 			
 			this.label = Controller.getSvg().append('text');
-			this.renderLabel();
 			
 		},
 
 		updateLabel: function(){
 			this.renderLabel();
+		},
+
+		updateTooltip: function(d){
+			this.tooltip.html("<h3>" + d.name + "</h3>" +
+	      		"<p>Data for " + Controller.getCurrentDate() + "</p>" +
+	      		"<p>Total Users <span class='tooltip-numbers'>" + d.users + "</span></p>" +
+	      		"<p>Total Page Views: <span class='tooltip-numbers'>" + d.pageviews + "</span></p>" +
+	      		"<div id='close'>X</div>");	
 		},
 
 		renderLabel: function(){
